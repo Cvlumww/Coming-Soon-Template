@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=EB+Garamond&family=Great+Vibes&family=IM+Fell+DW+Pica:ital@1&family=Josefin+Sans:wght@200&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Major+Mono+Display&family=Manrope&family=Noto+Sans+JP:wght@300&family=Playfair+Display:wght@500&family=Poppins:wght@300&family=Quantico&family=Rubik+Dirt&display=swap");
+.Font1 {
+  font-family: "EB Garamond", serif;
+  color: #f42272;
+}
+
+.Font2 {
+  font-family: "Great Vibes", cursive;
+  color: #f9e0d9;
+}
+
+.Font3 {
+  font-family: "Libre Baskerville", serif;
+  color: #c9fbff;
+}
+
+.Font4 {
+  font-family: "Major Mono Display", monospace;
+  color: #7fb685;
+}
+
+.Font5 {
+  font-family: "Manrope", sans-serif;
+  color: #4e5340;
+}
+
+.Font6 {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #685f74;
+}
+
+.Font7 {
+  font-family: "Playfair Display", serif;
+  color: #0e1116;
+}
+
+.Font8 {
+  font-family: "Poppins", sans-serif;
+  color: #f5dfbb;
+}
+
+.Font9 {
+  font-family: "Rubik Dirt", cursive;
+  color: #fe9920;
+}
+
+.Font10 {
+  font-family: "Abyssinica SIL", serif;
+  color: #1f2041;
+}
+
+.Font11 {
+  font-family: "Great Vibes", cursive;
+  color: #119da4;
+}
+
+.Font12 {
+  font-family: "IM Fell DW Pica", serif;
+  color: #e8e5da;
+}
+
+.Font13 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #66d7d1;
+  font-weight: 600;
+}
+
+.Font14 {
+  font-family: "Major Mono Display", monospace;
+  color: #403d58;
+}
+
+.Font15 {
+  font-family: "Manrope", sans-serif;
+  color: #172121;
+}
+
+.Font16 {
+  font-family: "Quantico", sans-serif;
+  color: #7f5a83;
+}
+
+.Font17 {
+  font-family: "Rubik Dirt", cursive;
+  color: #272635;
+}
+
+.App1 {
+  background-color: #232e21;
+}
+
+.App2 {
+  background-color: #7d6167;
+}
+
+.App3 {
+  background-color: #040f0f;
+}
+
+.App4 {
+  background-color: #426a5a;
+}
+
+.App5 {
+  background-color: #e2e8dd;
+}
+
+.App6 {
+  background-color: #f2befc;
+}
+
+.App7 {
+  background-color: #cb9cf2;
+}
+
+.App8 {
+  background-color: #f2542d;
+}
+
+.App9 {
+  background-color: #0c4767;
+}
+
+.App10 {
+  background-color: #ffc857;
+}
+
+.App11 {
+  background-color: #4b3f72;
+}
+
+.App12 {
+  background-color: #648de5;
+}
+
+.App13 {
+  background-color: #330c2f;
+}
+
+.App14 {
+  background-color: #f2efea;
+}
+
+.App15 {
+  background-color: #bfacb5;
+}
+
+.App16 {
+  background-color: #020202;
+}
+
+.App17 {
+  background-color: #b1e5f2;
+}
+
+html {
+  padding: 0;
+  overflow: hidden !important;
+}
+
+body {
+  margin: 0 !important;
+}
+
+.App {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+.App h1 {
+  margin-bottom: auto;
+  margin-top: auto;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+#comingSoonText {
+  vertical-align: middle;
+  font-size: 50px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100vw;
+  height: 10vh;
+}
+
+@media screen and (max-width: 800px) {
+  #comingSoonText {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=App.css.map */

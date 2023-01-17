@@ -1,0 +1,241 @@
+// Imports
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=EB+Garamond&family=Great+Vibes&family=IM+Fell+DW+Pica:ital@1&family=Josefin+Sans:wght@200&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Major+Mono+Display&family=Manrope&family=Noto+Sans+JP:wght@300&family=Playfair+Display:wght@500&family=Poppins:wght@300&family=Quantico&family=Rubik+Dirt&display=swap");
+
+// Variables
+$font1: "EB Garamond", serif;
+$font2: "Great Vibes", cursive;
+$font3: "Libre Baskerville", serif;
+$font4: "Major Mono Display", monospace;
+$font5: "Manrope", sans-serif;
+$font6: "Noto Sans JP", sans-serif;
+$font7: "Playfair Display", serif;
+$font8: "Poppins", sans-serif;
+$font9: "Rubik Dirt", cursive;
+$font10: "Abyssinica SIL", serif;
+$font11: "Great Vibes", cursive;
+$font12: "IM Fell DW Pica", serif;
+$font13: "Josefin Sans", sans-serif;
+$font14: "Major Mono Display", monospace;
+$font15: "Manrope", sans-serif;
+$font16: "Quantico", sans-serif;
+
+// Text Colours and Background Colours
+$txtColor1: #f42272;
+$bgColor1: #232e21;
+$txtColor2: #f9e0d9;
+$bgColor2: #7d6167;
+$txtColor3: #c9fbff;
+$bgColor3: #040f0f;
+$txtColor4: #7fb685;
+$bgColor4: #426a5a;
+$txtColor5: #4e5340;
+$bgColor5: #e2e8dd;
+$txtColor6: #685f74;
+$bgColor6: #f2befc;
+$txtColor7: #0e1116;
+$bgColor7: #cb9cf2;
+$txtColor8: #f5dfbb;
+$bgColor8: #f2542d;
+$txtColor9: #fe9920;
+$bgColor9: #0c4767;
+$txtColor10: #1f2041;
+$bgColor10: #ffc857;
+
+$txtColor11: #119da4;
+$bgColor11: #4b3f72;
+$txtColor12: #e8e5da;
+$bgColor12: #648de5;
+$txtColor13: #66d7d1;
+$bgColor13: #330c2f;
+$txtColor14: #403d58;
+$bgColor14: #f2efea;
+$txtColor15: #172121;
+$bgColor15: #bfacb5;
+$txtColor16: #7f5a83;
+$bgColor16: #020202;
+$txtColor17: #272635;
+$bgColor17: #b1e5f2;
+
+// Fonts AND bgColours
+.Font1 {
+  font-family: $font1;
+  color: $txtColor1;
+}
+.Font2 {
+  font-family: $font2;
+  color: $txtColor2;
+}
+.Font3 {
+  font-family: $font3;
+  color: $txtColor3;
+}
+.Font4 {
+  font-family: $font4;
+  color: $txtColor4;
+}
+.Font5 {
+  font-family: $font5;
+  color: $txtColor5;
+}
+.Font6 {
+  font-family: $font6;
+  color: $txtColor6;
+}
+.Font7 {
+  font-family: $font7;
+  color: $txtColor7;
+}
+.Font8 {
+  font-family: $font8;
+  color: $txtColor8;
+}
+.Font9 {
+  font-family: $font9;
+  color: $txtColor9;
+}
+.Font10 {
+  font-family: $font10;
+  color: $txtColor10;
+}
+.Font11 {
+  font-family: $font11;
+  color: $txtColor11;
+}
+.Font12 {
+  font-family: $font12;
+  color: $txtColor12;
+}
+.Font13 {
+  font-family: $font13;
+  color: $txtColor13;
+  font-weight: 600;
+}
+.Font14 {
+  font-family: $font14;
+  color: $txtColor14;
+}
+.Font15 {
+  font-family: $font15;
+  color: $txtColor15;
+}
+.Font16 {
+  font-family: $font16;
+  color: $txtColor16;
+}
+.Font17 {
+  font-family: $font9;
+  color: $txtColor17;
+}
+
+// App Background Colours
+.App1 {
+  background-color: $bgColor1;
+}
+.App2 {
+  background-color: $bgColor2;
+}
+.App3 {
+  background-color: $bgColor3;
+}
+.App4 {
+  background-color: $bgColor4;
+}
+.App5 {
+  background-color: $bgColor5;
+}
+.App6 {
+  background-color: $bgColor6;
+}
+.App7 {
+  background-color: $bgColor7;
+}
+.App8 {
+  background-color: $bgColor8;
+}
+.App9 {
+  background-color: $bgColor9;
+}
+.App10 {
+  background-color: $bgColor10;
+}
+.App11 {
+  background-color: $bgColor11;
+}
+.App12 {
+  background-color: $bgColor12;
+}
+.App13 {
+  background-color: $bgColor13;
+}
+.App14 {
+  background-color: $bgColor14;
+}
+.App15 {
+  background-color: $bgColor15;
+}
+.App16 {
+  background-color: $bgColor16;
+}
+.App17 {
+  background-color: $bgColor17;
+}
+
+// Overall
+html {
+  padding: 0;
+  // margin-top: -8px;
+  overflow: hidden !important;
+}
+
+body {
+  margin: 0 !important;
+}
+
+#root {
+  // margin: -21px;
+}
+
+// Body Text
+.App {
+  transition-duration: 0.5s;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100vw;
+  height: 100vh;
+  h1 {
+    margin-bottom: auto;
+    margin-top: auto;
+    transition-duration: 0.5s;
+  }
+}
+
+#comingSoonText {
+  vertical-align: middle;
+  font-size: 50px;
+
+  margin: 0 auto;
+  text-align: center;
+  width: 100vw;
+  height: 10vh;
+}
+
+// // Mobile
+// @media screen and (max-width: 800px){
+//     #comingSoonText{
+//         position: absolute;
+//         top: 45vh;
+//         left: 23.5vw;
+//     }
+// }
+
+// // Tablet
+@media screen and (max-width: 800px) {
+  #comingSoonText {
+    font-size: 30px;
+  }
+}
